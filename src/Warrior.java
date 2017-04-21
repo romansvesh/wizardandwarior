@@ -15,7 +15,7 @@ public class Warrior extends Character {
             case 3: enemyHealth = enemyHealth - 40;
         }
     }
-
+// some new comment
     public boolean attack() {
         switch (level) {
             case 1: if (enemyHealth > 0)
